@@ -27,26 +27,26 @@ A tool that automatically prevents secrets (API keys, tokens, passwords) from le
 sentinel-secrets/
 ├── sentinel/
 │   ├── __init__.py
-│   ├── scanner.py        # Regex + entropy scanning
-│   ├── entropy.py        # Shannon entropy logic
-│   ├── git_utils.py      # Git diff extraction
-│   ├── report.py         # JSON / Markdown reports
-│   └── api.py            # FastAPI REST API
-│
+│   ├── scanner.py
+│   ├── entropy.py
+│   ├── git_utils.py
+│   ├── ignore.py
+│   └── report.py
 ├── hooks/
-│   └── pre-commit        # Git hook
-│
-├── examples/
-│   └── report.md
-│
+│   └── pre-commit        # git pre-commit hook
 ├── tests/
 │   └── test_scanner.py
-│
+├── examples/
+│   └── example_report.md
+├── .sentinelignore
+├── .pre-commit-hooks.yaml
+├── .pre-commit-config.yaml
+├── main.py
 ├── README.md
 ├── SECURITY.md
 ├── LICENSE
-├── requirements.txt
-└── main.py
+└── requirements.txt
+
 ~~~
 
 ### 🧠 Core logic (key fragments)
