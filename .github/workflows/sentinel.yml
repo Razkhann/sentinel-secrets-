@@ -31,3 +31,4 @@ jobs:
         run: |
           echo "🔍 Running SentinelSecrets..."
           python main.py --file "$(git ls-files | tr '\n' ' ')"
+
