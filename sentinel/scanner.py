@@ -12,7 +12,6 @@ ENTROPY_THRESHOLD = 4.5
 def scan_text(text: str, file_path: str = "") -> list:
     raw_findings = []
 
-    # Regex scanning
     for name, pattern in SECRET_PATTERNS.items():
         for match in re.finditer(pattern, text):
             raw_findings.append({
@@ -22,7 +21,6 @@ def scan_text(text: str, file_path: str = "") -> list:
                 "file": file_path
             })
 
-    # High-entropy scanning
     for word in text.split():
         if shannon_entropy(word) > ENTROPY_THRESHOLD and len(word) > 20:
             raw_findings.append({
@@ -32,7 +30,6 @@ def scan_text(text: str, file_path: str = "") -> list:
                 "file": file_path
             })
 
-    # Apply ignore rules
     ignore = IgnoreRules()
     return ignore.filter(raw_findings)
 
