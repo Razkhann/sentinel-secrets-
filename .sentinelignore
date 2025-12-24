@@ -1,4 +1,3 @@
-# Ignore high-entropy strings from tests
 type:High entropy string
 path:tests/
 value:example_token
