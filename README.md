@@ -119,9 +119,9 @@ pip install pytest
 pytest -v
 ~~~
 
-### ✅ Cleaning secrets from history (if mistakes happen)
+> [!IMPORTANT]  
+> Use `git filter-repo` (recommended) or BFG Repo-Cleaner to remove secrets from Git history.
 
-Use `git filter-repo` (recommended) or BFG Repo-Cleaner to remove secrets from Git history.
 
 > [!NOTE]  
 > My project is lightweight, customizable to the company's internal formats, and written in pure Python for easy auditing.
