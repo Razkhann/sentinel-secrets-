@@ -79,13 +79,15 @@ Swagger will be available on:
 http://localhost:8000/docs
 ~~~
 
-## Features
+## 🚀 Features
 
-- Git pre-commit scanning
-- Regex + entropy analysis
-- JSON/Markdown reports
-- REST API with OpenAPI
-- Suitable for CI/CD
+- 🔍 Regex search (AWS, GitHub, JWT, passwords)
+- 🔐 Entropy analysis (Shannon entropy)
+- 🧠 False positive minimization
+- 🪝 Git pre-commit integration
+- 📄 Reports: JSON / Markdown / HTML
+- 📊 HTML report with graphs (Chart.js)
+- ❌ Commit locking on leak
 
 ## Installation
 ~~~bash
