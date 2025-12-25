@@ -3,6 +3,7 @@ import sys
 from sentinel.scanner import scan_text
 from sentinel.git_utils import get_staged_diff
 from sentinel.report import generate_json_report, generate_markdown_report
+from sentinel.html_report import generate_html_report
 
 def main():
     parser = argparse.ArgumentParser(description="SentinelSecrets - Secret Scanner")
