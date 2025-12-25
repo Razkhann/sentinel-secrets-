@@ -1,6 +1,4 @@
- ### 📦 Project name
-
- **SentinelSecrets**
+ ### 📦 Project name - **SentinelSecrets**
  
  ![](https://komarev.com/ghpvc/?username=mscbuild) 
  ![](https://img.shields.io/github/license/mscbuild/sentinel-secrets-) 
