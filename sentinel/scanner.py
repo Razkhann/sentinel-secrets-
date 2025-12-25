@@ -32,4 +32,3 @@ def scan_text(text: str, file_path: str = "") -> list:
 
     ignore = IgnoreRules()
     return ignore.filter(raw_findings)
-
